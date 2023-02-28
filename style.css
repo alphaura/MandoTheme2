@@ -1,82 +1,124 @@
 /* Header Content */
 
 *{
-    color: aliceblue;
-    margin: 0;
-    max-width: 100%;
+  color: aliceblue;
+  margin: 0;
+  max-width: 100%;
 }
 
 header {
-    background-color: black;
-    text-align: center;
-    margin: 0;
+  background-color: black;
+  text-align: center;
+  margin: 0;
 }
 
 header img{
-    padding: 10px;
-    padding-top: 50px;
-    border-radius: 180px;
+  padding: 10px;
+  padding-top: 50px;
+  border-radius: 50%;
+  height: 500px;
+  width: 510px;
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0px 0;
-  }
-  
-  nav li {
-    padding: 20px;
-    position: relative;
-    display: inline-block;
-    border-spacing: 5em;
-    font-size: 20px;
-    
-  }
+  list-style: none;
+  margin: 0;
+  padding: 0px 0;
+}
 
-  nav li:hover {
-    color: rgb(64, 238, 64)
-  }
 
-  body {
-    background-color: rgb(157, 155, 155);
-  }
+nav li {
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  border-spacing: 5em;
+  font-size: 20px;
+}
 
-  h1{
-    padding: 10px;
-    font-size: 70px;
-    padding-bottom: 50px;
-    padding-top: 20px;
-  }
+nav li a:hover {
+  color: rgb(64, 238, 64)
+}
 
-  p{
-    padding: 20px;
-    text-align: center;
-    
-  }
+nav li a{
+  text-decoration: none;
+}
 
-  main {
-    text-align: center;
-    margin: 0;
-    max-width: 100%;
-    } 
+body {
+  background-color: rgb(157, 155, 155);
+}
 
-  .mando {
-    padding: 20px;
-  }
+h1{
+  padding: 10px;
+  font-size: 70px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
 
- li {
-    text-align: center;
- }
+p{
+  padding: 20px;
+  text-align: center;
 
-  h2 {
-    padding: 20px;
-    font-style: italic;
-    font-size: 40px;
-  }
+}
 
-  ul img{
-    padding: 20px;
-  }
-  main ul {
-    padding: 20px;
-  }
+main {
+  text-align: center;
+  margin: 0;
+  max-width: 100%;
+} 
+
+#mando {
+  padding-top: 20px;
+}
+
+#mando img {
+  padding-top: 30px;
+}
+
+li {
+  text-align: center;
+}
+
+h2 {
+  padding: 20px;
+  font-style: italic;
+  font-size: 40px;
+}
+
+ul img{
+  padding: 20px;
+}
+main ul {
+  padding: 20px;
+}
+
+.allies a:hover {
+  color: rgb(121, 209, 33);
+}
+
+.allies a {
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.allies img {
+  height: 500px;
+  width: 800px;
+  box-sizing: border-box;
+}
+
+.rivals a:hover {
+  color: rgb(244, 2, 2);
+}
+
+.rivals a {
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.rivals img {
+  height: 500px;
+  width: 800px;
+  box-sizing: border-box;
+}
