@@ -12,12 +12,12 @@ header {
   margin: 0;
 }
 
-header img{
+.header-img {
   padding: 10px;
   padding-top: 50px;
   border-radius: 50%;
-  height: 500px;
-  width: 510px;
+  height: 440px;
+  width: 460px;
 }
 
 nav ul {
